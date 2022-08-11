@@ -1,0 +1,126 @@
+/* User profile links */
+
+ul.user-profile-list li a {
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+ul.user-profile-list li a:hover {
+  color: #005499 !important;
+}
+
+ ul.user-profile-list li.list-border-left {
+  border-left: 3px solid #9799a0;
+}
+
+ul.user-profile-list li.list-border-left:hover {
+  border-left: 3px solid #005499;
+}
+
+ul.user-profile-list li.list-border-left.active {
+  border-left: 3px solid #004680;
+}
+
+ul.user-profile-list li.list-border-left.active a {
+  color: #004680;
+}
+
+/* Forms and buttons for user profile */
+
+.form-control:focus {
+  border-color: #9799a0 !important;
+  outline: 0 none;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.075);
+}
+
+.btn.btn-default.blue-button, .btn.btn-default.blue-button-xs-up {
+  background-color: #004680;
+}
+
+.btn.btn-default.blue-button:hover, .btn.btn-default.blue-button-xs-up:hover {
+  background-color: #005499;
+}
+
+.btn.btn-default.grey-button, .btn.btn-default.grey-button-xs-up {
+  color: #37383b;
+  background-color: #f2f3f5;
+  outline: 1px solid #dfe0e4;
+}
+
+.btn.btn-default.blue-button-xs-up, .btn.btn-default.grey-button-xs-up {
+  height: 60px;
+  width: 175px;
+}
+
+/* Orders history */
+
+.caret-icon {
+  font-size: 1.1rem;
+  color: #9799a0;
+}
+
+.fa-caret-down {
+  right: -4px;
+}
+
+/* Order history Details */
+
+.detail {
+  letter-spacing: -1px;
+}
+
+.price-detail {
+  padding-top: 30px;
+}
+
+
+/* Wishlist */
+
+.close {
+  font-size: 2.5rem;
+}
+
+.sale-label {
+  z-index: 1;
+  top: 25px;
+  left: -5px;
+}
+
+.sale-label-1 {
+  width: 70px;
+  z-index: 1;
+  top: 28px;
+  background-color: #003866;
+}
+
+.card .card-body .card-title {
+  font-size: 1rem;
+  letter-spacing: -1px;
+}
+
+.card .card-body .card-text, .card-footer .btn.btn-link.add-to-cart {
+  letter-spacing: -0.5px;
+}
+
+@media only screen and (min-width: 576px) {
+    .truncate-two-line {
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+}
+
+.btn.btn-default.grey-button-w, .btn.btn-default.grey-button-w-xs-up {
+  color: #37383b;
+  background-color: #f2f3f5;
+  outline: 1px solid #dfe0e4;
+}
+
+.btn.btn-default.grey-button-w-xs-up {
+  height: 45px;
+  width: 230px;
+  letter-spacing: -1px;
+}

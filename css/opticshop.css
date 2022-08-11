@@ -1,0 +1,242 @@
+.c-5c {
+  color: #5c5f66 !important;
+}
+
+.c-df {
+  color: #dfe0e4 !important;
+}
+
+.c-f2 {
+  color: #f2f3f5 !important;
+}
+
+.c-37 {
+  color: #37383b !important;
+}
+
+.c-97 {
+  color: #9799a0 !important;
+}
+
+.c-003 {
+  color: #003866 !important;
+}
+
+.c-004 {
+  color: #004680 !important;
+}
+
+.c-005 {
+  color: #005499 !important;
+}
+
+.f-w5 {
+  font-weight: 500;
+}
+
+.f-w6 {
+  font-weight: 600;
+}
+
+.f-w7 {
+  font-weight: 700;
+}
+
+.f-w8 {
+  font-weight: 800;
+}
+
+.f-w9 {
+  font-weight: 900;
+}
+
+.f-s12 {
+  font-size: 0.75rem;
+}
+
+.f-s14 {
+  font-size: 0.875rem;
+}
+
+.f-s18 {
+  font-size: 1.125rem;
+}
+
+/* Header */
+.header a {
+  text-decoration: none;
+}
+
+.badge-cart {
+  border-radius: 0.9375rem;
+  background-color: #004680;
+  bottom: 0.9375rem;
+  left: 1.25rem;
+}
+
+/* Navigation */
+.container-navbg {
+  background-color: #f2f3f5;
+}
+
+.navbar ul li {
+  background-color: #f2f3f5;
+}
+
+.nav-catalog-color {
+  font-size: 1.375rem;
+}
+
+/* Join our team */
+.join-team-section {
+  margin-top: 5.312rem;
+}
+
+.join-team-bg {
+  background-image: url("../images/join-our-team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.join-team-heading {
+  padding-top: 4.375rem;
+  font-size: 3.125rem;
+}
+
+.join-team-btn {
+  padding: 2.5rem 0 5.625rem 0;
+}
+
+.join-team-button {
+  width: 240px;
+  height: 60px;
+}
+
+.join-team-sign-up {
+  background-image: url("../images/our-team-form.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6.25rem 0;
+}
+
+.join-team-p {
+  font-size: 1.25rem;
+}
+
+.join-team-sub-btn {
+  background-color: #004680;
+}
+
+.join-team-sub-btn:hover {
+  background-color: #005499;
+}
+
+/* Back To Top */
+.back-to-top-btn {
+  background-color: #004680;
+}
+
+.back-to-top-btn:hover {
+  background-color: #005499;
+}
+
+.back-to-top-icon {
+  font-size: 2.1875rem;
+}
+
+/* Footer */
+.footer-home-pt {
+  margin-top: 3.4375rem;
+}
+
+.footer-list-style {
+  line-height: 3.0;
+}
+
+.footer-list-font-title {
+  font-size: 1.125rem;
+}
+
+.social-network {
+  width: 23%;
+  font-size: 1.875rem;
+}
+
+.fa-facebook-square {
+  color: #465892;
+}
+
+.fa-twitter {
+  color: #76a9ea;
+}
+
+.fa-pinterest {
+  color: #9f1120;
+}
+
+.fa-google-plus-g {
+  color: #f34938;
+}
+
+.footer-home-mt {
+  margin: 3.75rem 0 2.5rem 0;
+}
+
+.footer-help-text {
+  font-size: 1.1875rem;
+}
+
+/* Home page media */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .join-team-heading {
+    font-size: 2.8125rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .join-team-media-sm {
+    margin-left: 5.937rem;
+  }
+  .join-team-heading {
+    font-size: 2.0625rem;
+  }
+  .footer-help-text {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .join-team-heading {
+    font-size: 1.75rem;
+  }
+  .join-team-sign-up {
+    padding: 5.625rem 0;
+  }
+  .join-team-media-xs {
+    text-align: center !important;
+  }
+  .join-team-media-sm {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0.9375rem !important;
+  }
+  .join-team-media-xs2 {
+    padding-left: 0.9375rem !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .join-team-heading {
+    font-size: 1.0625rem;
+  }
+  .join-team-p {
+    font-size: 1rem;
+  }
+  .footer-help-text {
+    font-size: 1rem;
+  }
+  .text-md-right {
+    font-size: 0.75rem;
+  }
+}
